@@ -1,8 +1,16 @@
+<!--
+ * @Author: Latte
+ * @Date: 2021-10-24 02:12:37
+ * @LAstEditors: Latte
+ * @LastEditTime: 2021-10-25 00:57:17
+ * @FilePath: \vue-component-demo\src\App.vue
+-->
 <template>
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/Parent">$Parent</router-link> |
+      <router-link to="/fatherProvide">FatherProvide</router-link>
     </div>
     <router-view/>
   </div>
